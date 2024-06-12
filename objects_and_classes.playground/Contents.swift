@@ -176,7 +176,7 @@ class TriangleAndSquare{
     
     var square: Square{
         willSet{
-            triangle.sideLength = newValue.sideLength
+            triang.sideLength = newValue.sideLength
         }
     }
     
